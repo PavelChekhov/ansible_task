@@ -1,0 +1,8 @@
+[web]
+ansible-day-3 ansible_host=192.168.0.101
+
+[web:vars]
+ansible_connection=ssh
+ansible_user=vagrant
+ansible_ssh_private_key_file=~/.ssh/private_key_day3
+

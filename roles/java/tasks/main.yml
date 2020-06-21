@@ -1,0 +1,4 @@
+---
+- name: Ensure OpenJDK Installed
+  yum: name=java-{{ jdk_release }}-openjdk
+  become: yes
